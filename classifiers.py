@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 class Classifiers:
 
-    def classify(self, humomments, labels, iterations=30, n_neighbors=5, title=''):
+    def classify(self, humomments, labels, iterations=20, n_neighbors=5, title=''):
 
         classifiers = [
             KNeighborsClassifier(n_neighbors=n_neighbors),
